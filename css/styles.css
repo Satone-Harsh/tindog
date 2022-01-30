@@ -1,0 +1,175 @@
+.container-fluid {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #E60965;
+  padding: 2% 7%;
+}
+
+.meet {
+  font-family: 'Montserrat-black', sans-serif;
+  color: white;
+  font-size: 3.7rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: 'Montserrat-bold', sans-serif;
+  font-size: 2em;
+  line-height: 1em;
+  margin-top: 17px;
+}
+
+p {
+  color: grey;
+  width: 50%;
+  margin: 0 auto;
+  line-height: 1.6;
+  font-size: 1.2em;
+}
+
+.navbar {
+  padding-bottom: 100px;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.block {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.aaa {
+  transform: rotate(30deg);
+  width: 50%;
+  position: absolute;
+  right: 180px;
+}
+
+.dwld {
+  margin: 5% 3% 5% 0px;
+  margin-bottom: 130px;
+}
+
+.ic {
+  margin-top: 80px;
+  color: #FF008E;
+}
+
+.ic:hover {
+  color: #548CFF;
+}
+
+#testimonials {
+  background-color: #E60965;
+  text-align: center;
+  padding: 170px 100px;
+  padding-bottom: 60px;
+}
+
+.testi {
+  font-family: 'Montserrat-bold', sans-serif;
+  font-size: 2.5em;
+  width: 60%;
+  line-height: 1.5em;
+  margin: 0px auto;
+  padding-bottom: 80px;
+  color: white;
+}
+
+.dogimg {
+  border-radius: 50%;
+  width: 12%;
+  padding-bottom: 10px;
+}
+
+.logos {
+  width: 13%;
+  margin: 65px 20px 20px;
+}
+
+#press {
+
+}
+
+.card {
+  padding: 0px;
+  margin: 20px 10px;
+  width: 90%;
+}
+
+.block {
+  background-color: white;
+  position: relative;
+  z-index: 1;
+  padding-top: 200px;
+  padding-bottom: 240px;
+}
+
+@media (max-width:900px) {
+  .aaa {
+    position: static;
+    transform: rotate(0deg);
+  }
+
+  .testi {
+    font-size: 2em;
+    width: 90%;
+  }
+
+  .dogimg {
+    width: 200px;
+  }
+
+  .col-lg-6 {
+    text-align: center;
+  }
+
+  #press {
+    width: 700px;
+  }
+  
+
+}
+
+.big-heading {
+  color: white;
+  font-size: 2.5em;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0px 0px 80px 0px;
+  text-align: center;
+}
+
+.social-icon {
+  text-align: center;
+  width: 180px;
+  margin: 0px 20px 40px;
+}
+
+.ss {
+  padding: 190px;
+}
+
+#footer {
+  text-align: center;
+}
+
+#cta {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.section-heading {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5em;
+  padding-top: 140px;
+}
+
+.card-header, .price-text {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
